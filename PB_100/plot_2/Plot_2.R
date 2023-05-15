@@ -1,4 +1,4 @@
-source("settings.R")
+source("PB_100/settings.R")
 
 name_plot <- "plot_2"
 
@@ -22,7 +22,7 @@ plot <- ggplot(data_plot, aes(x = years, y = value, fill = X1)) +
                limits = c(min(data_plot$years), max(data_plot$years)+365)) +
   scale_y_continuous(breaks=seq(0, 12, 2)) +
   scale_fill_manual(values= rep_pal[[str_c("cb_palette_p2")]] ) +
-  ofce::theme_ofce(base_family = "Nunito") +
+  ofce::theme_ofce(base_family = "Stone sans") +
   theme(legend.title=element_blank()) + 
   labs(title =" ",
        subtitle = "", 

@@ -13,7 +13,7 @@ font_add_google("Nunito", family = "Nunito regular")
 
 
 # Loading the functions 
-source("src/functions.R")
+# source("src/functions.R")
 
 # format image des graphes 
 format_img <- c("svg", "png")
